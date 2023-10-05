@@ -1,0 +1,78 @@
+
+.header {
+  background: url('../img/bg-hero.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 32px;
+  padding-bottom: 46px;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+
+
+  &__wrap-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  &__logo {
+    max-width: 376px;
+    max-height:348px ;
+  }
+
+  &__block-img {
+
+    display: block;
+  
+
+    &-woman {
+    position: absolute;
+    left: -31px;
+    top: 46px;;
+    }
+
+    &-man {
+      position: absolute;
+      right: -12px;
+      top: 45px;
+      }
+    }
+
+    &__content {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 418px;
+      row-gap: 20px;
+
+  
+      &-img {
+        position: absolute;
+        right: 567px;
+        top: 265px;
+      }
+
+  }
+
+  &__title {
+    font-size: 42px;
+    font-family: Roboto Condensed;
+    font-weight: 700;
+    text-transform: uppercase;
+    z-index: 10;
+  }
+
+  &__desc {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 400;
+    z-index: 10;
+  }
+
+}
+
